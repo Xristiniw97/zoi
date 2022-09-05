@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiences - Zoi Boutique Hotel Zanzibar</title>
+    <link rel="icon" href="./images/ZOI-favicon.png">
+    
+
+    <!--PREFETCH STARTS HERE-->
+    <link rel="dns-prefetch" crossorigin="anonymous" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <!--PREFETCH ENDS HERE -->
+
+
+    <!--START FONTS STARTS HERE  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Six+Caps&display=swap" rel="stylesheet" />
+    <noscript><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Six+Caps&display=swap" rel="stylesheet" /></noscript>
+    <!--END FONTS ENDS HERE  -->
+
+    
+    <!--START BOOTSTRAP CSS  -->
+    <link rel="preload" as="style" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--END BOOTSTRAP CSS  -->
+
+    <!-- AOS LIBRARY  -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS LIBRARY  -->
+
+    <!-- MY STYLE -->
+    <link rel="preload" as="style" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- MY STYLE -->
+
+    <!-- SCRIPTS PRELOAD STARTS HERE  -->
+    <!-- BOOTSTRAP JS PRELOAD  -->
+    <link rel="preload" as="script" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+    <!-- BOOTSTRAP JS PRELOAD  -->
+
+    <!-- AOS LIBRARY  -->
+    <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- AOS LIBRARY  -->
+
+    <!-- MY SCRIPTS  -->
+    <link rel="preload" as="script" href="./scripts/scripts.js">
+   <!-- MY SCRIPTS  -->
+  
+</head>
+<body class="noSlider">
+
+    <!-- START OF HEADER  -->
+    <header class="header fixed-top">
+      <div class="row g-0 align-items-center py-2 px-2 px-sm-3 px-xl-5">
+        <div class="col-4 d-flex justify-content-start align-items-center">
+          <div class="menu-btn">
+            <input type="checkbox" class="menuToggleInput" onclick="myFunction()"/>
+            <span></span>
+          </div>
+          <div class="header-tel ms-3 ms-md-4">
+            <a href="#"><img src="./images/phone.png" alt="" class="mb-1">+255 774 388 662</a>
+          </div>
+        </div>
+        <div class="col-4 text-center">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="./images/zoi-logo.svg" alt="" class="d-none d-md-block">
+                    <img src="./images/logo-vertical.png" alt="" class="d-md-none">
+                </a>
+            </div>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <div class="languagesDrop pe-3 pe-sm-4">
+            <button type="button" class="dropdown-toggle" id="dropdownMenuButton"  data-bs-toggle="dropdown" aria-expanded="false">
+                EN
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">DE</a></li>
+            </ul>
+          </div>
+          <div class="header-buttons d-flex flex-column justify-content-center align-items-center">
+            <a href="#" class="mb-1">LOYALTY CLUB</a>
+            <a href="#" class="whiteBtn">BOOK NOW</a>
+          </div>
+         
+        </div>
+      </div>
+    </header>
+    <!-- END OF HEADER  -->
+
+    <!-- START OF MAIN MENU  -->
+    <nav role="navigation" class="mobile-nav-container">
+        <div class="menu-btn">
+        <input type="checkbox" class="menuToggleInput" onclick="myFunction()"/>
+        <span></span>
+        </div>
+        
+        <div class="mobile-nav">
+        <ul class="nav">
+            <li>
+            <label for="btn-1" class="d-none">HOTEL</label>
+            <a href="">HOTEL</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">Facilities &amp; Services</a>
+                </li>
+                <li>
+                    <a href="#">Awards</a>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <label for="btn-1" class="d-none">STAY</label>
+            <a href="">STAY</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">STANDARD ROOM</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE WITH GARDEN VIEW</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE WITH PARTIAL OCEAN VIEW</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE WITH OCEAN VIEW</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE OCEAN FRONT</a>
+                </li>
+                <li>
+                    <a href="#">HONEYMOON SUITE WITH PLUNGE POOL OCEAN FRONT</a>
+                </li>
+            </ul>
+            </li>        
+            <li>
+                <a href="#">TASTE</a>
+            </li>
+            <li>
+                <a href="#">EXPERIENCES</a>
+            </li>
+            <li>
+                <a href="#">EXPLORE</a>
+            </li>
+            <li>
+            <label for="btn-1" class="d-none">OFFERS</label>
+            <a href="">OFFERS</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">JOIN OUR LOYALTY CLUB</a>
+                </li>
+                <li>
+                    <a href="#">JOIN OUR LOYALTY CLUB 2</a>
+                </li>
+            </ul>
+            </li>  
+            <li>
+            <label for="btn-1" class="d-none">GALLERY</label>
+            <a href="">GALLERY</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">GENERAL</a>
+                </li>
+                <li>
+                    <a href="#">STAY</a>
+                </li>
+                <li>
+                    <a href="#">TASTE</a>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">TRAVEL AGENTS</a>
+            </li>
+            <li>
+            <a href="#">MAKE A REQUEST</a>
+            </li>
+            <li>
+            <a href="#">CAREER</a>
+            </li>
+            <li>
+            <a href="#">HEALTH AND SAFETY</a>
+            </li>   
+            <li>
+            <a href="#">CONTACT</a>
+            </li>          
+        </ul>
+        <div class="social-media mt-3">
+            <div class="title">
+                Find us on Social Media
+            </div>
+            <ul class="d-flex list-unstyled align-items-center mt-3">
+                <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/tripadvisor.png" alt=""></a></li>
+            </ul>
+        </div>
+        
+
+        </div>
+    </nav>
+    <!--END OF MAIN MENU  -->
+
+    <!-- START OF TEXTPAGE  -->
+    <div class="marginTop px-4 px-sm-5">
+        <div class="text-center container">
+            <h1 class="h2">Experiences <span class="subtitle">Discover a world of wonders.</span></h1>
+            <p class="my-4">
+                Prepare to be awash with serenity and gratitude when enjoying the unique travel experiences that Zanzibar has to offer. <br>
+                Take your pick and be blessed with memorable moments that last for a lifetime. <br>
+                A visit to the cheetah sanctuary is a must as well as a guided tour at the historic capital town of Zanzibar; Stone City, an UNESCO World Heritage Site the likes of which can’t be found anywhere else in the world. <br>
+                The giant turtles at Prison Island are also an unmissable experience that guests enjoy during their stay.  <br>
+                Just allow our team of local experts and our dedicated day-trip planners handcraft your perfect daily itinerary so you can take in all the beauty and culture that Zanzibar has to offer.
+
+            </p>
+        </div>
+    </div>
+    <!-- END OF TEXTPAGE  -->
+
+    <!-- START OF RIGHT IMG SECTION  -->
+    <div class="rightImg-section marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-7 imgCol order-2" style="background: url('./images/sunshne-boutique-hotel-zanzibar3.jpg') no-repeat center center/ cover; height: 800px;" data-aos="fade-in" data-aos-duration="2000">
+
+        </div>
+        <div class="col-lg-5 textCol text-start order-1 mb-4 mb-lg-0">
+            <div class="textBlock col-12 col-lg-10 col-xl-8 me-lg-auto">
+                <div class="sectionCategory mb-4">
+                    MNEBA ISLAND
+                </div>
+                <h2>COLOURFUL REEFS AND UNDERWATER ADVENTURES</h2>
+                <p>If you love colourful reefs and underwater adventures, Mneba island is a must. Voted as the #1 best beach destination in Africa, this paradise on Earth is just a short journey away from the property and offers an unforgettable experience to every guest. Enjoy stunning views of tropical reef fish, swim in the most crystal-clear waters in the Indian ocean, taste local exotic fruits, experience unique snorkelling tours to meet different species of fish such as angelfish, sea turtles, black snappers, groupers, frog fish, and, of course, dolphins. A day tour here will be one of the most amazing experiences you can have while staying at our hotel! <br>
+                    The tour to Mneba island is a full-day affair and includes lunch, private transportation, and guided excursions.
+                    </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF RIGHT IMG SECTION  -->
+
+    <!-- START OF LEFT IMG SECTION WITH TWO IMAGES  -->
+    <div class="leftImg-section two-images marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-7 imgCol order-2 order-lg-1 d-flex align-items-center" style="background: url('./images/sunshne-boutique-hotel-zanzibar6.jpg') no-repeat center center/ cover; height: 800px;"  data-aos="fade-in" data-aos-duration="2000">
+            <picture>
+            <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+            <source srcset="#" media="(min-width: 992px)"> -->
+            <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+            </picture>
+        </div>
+        <div class="col-lg-5 textCol text-lg-end order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="textBlock col-12 col-lg-8 ms-lg-auto">
+            <div class="sectionCategory mb-4">
+                Prison Island - Changuu Private Island 
+            </div>
+            <h2>EXPLORE THE UNIQUE SPECIES</h2>
+            <p>Meet the giant Aldabra tortoises in their natural habitat in Prison Island, Zanzibar. Take a tour and explore the unique species on a stunning paradise on Earth surrounded by white beaches and breath-taking scenery. The old ruins of the prison have now been turned into bright living spaces with a cafe, boutique, and library. <br>
+                The giant tortoises were brought here a century ago from Seychelles and are the only living creatures inhabiting the island today. The fascinating experience of meeting this ancient living animal on its own private island cannot be found anywhere else in the world.  
+                
+            </p>            
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF LEFT IMG SECTION WITH TWO IMAGES  -->
+
+     <!-- START OF RIGHT IMG SECTION WITH BIGGER IMAGE COL  -->
+    <div class="rightImg-section marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-8 imgCol order-2" style="background: url('./images/sunshine-hotel-restaurant11.jpg') no-repeat center center/ cover; height: 800px;" data-aos="fade-in" data-aos-duration="2000">
+
+        </div>
+        <div class="col-lg-4 textCol text-start order-1 mb-4 mb-lg-0">
+          <div class="textBlock col-12 col-lg-10 col-xl-9 me-lg-auto" >
+              <div class="sectionCategory mb-4">
+                Stone Town
+              </div>
+              <h2>UNESCO WORLD HERITAGE SITE</h2>
+              <p>This UNESCO World Heritage Site is a must visit when in Zanzibar. A cultural travel experience that takes you back in time in the most authentic way. It is a fine example of Swahili coastal trading towns that remain untouched by time even today. African, Arab, Persian, Indian, and European elements create an incredible mosaic of culture, architecture, and history in an unparalleled, virtually intact townscape. <br>
+                This is a fascinating and educational guided tour not only for those who are interested in history, culture, and architecture, but also for those who long to add unique travel experiences to their travel diary.
+                </p>
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF RIGHT IMG SECTION WITH BIGGER IMAGE COL  -->
+
+    <!-- START OF LEFT IMG SECTION  -->
+    <div class="leftImg-section marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-6 imgCol order-2 order-lg-1" style="background: url('./images/sunshne-boutique-hotel-zanzibar6.jpg') no-repeat center center/ cover; height: 800px;" data-aos="fade-in" data-aos-duration="2000">
+
+        </div>
+        <div class="col-lg-6 textCol text-lg-end order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="textBlock col-12 col-lg-10 col-xl-8 ms-lg-auto" >
+                <div class="sectionCategory mb-4">
+                    SCUBA DIVING
+                </div>
+                <h1 class="h2">DIVEPOINT ZANZIBAR</h1>
+                <p>Probably one of the best scuba diving and snorkelling destinations in Africa, Zanzibar’s scuba diving in is one of the most exciting experiences in the country. Its underwater world is a magical paradise. With various colourful fish and an abundance of corals, Mneba island has a 5-star PADI dive centre that offers daily diving and snorkelling trips to Mnemba Atoll and the north-east coastal reefs. <br>
+                    Discover scuba diving, whether as a beginner or professional diver, and dive into the most beautiful underwater world in Africa.
+                    
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF LEFT IMG SECTION  -->
+
+    <!-- START OF RIGHT IMG SECTION WITH TWO IMAGES -->
+    <div class="rightImg-section two-images marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-7 imgCol d-flex align-items-center order-2" style="background: url('./images/sunshine-hotel-junior-suite-ocean-front2.jpg') no-repeat center center/ cover; height: 800px;"  data-aos="fade-in" data-aos-duration="2000">
+            <picture>
+            <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+            <source srcset="#" media="(min-width: 992px)"> -->
+            <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+            </picture>
+        </div>
+        <div class="col-lg-5 textCol text-start order-1 mb-4 mb-lg-0">
+            <div class="textBlock col-12 col-lg-8 me-lg-auto">
+                <div class="sectionCategory mb-4">
+                    Cheetah's Rock
+                </div>
+                <h2>FOR THOSE WHO LOVE NATURE</h2>
+                <p>A life changing experience for those who love nature, animals, and unusual travel experiences. This ethical conservation shelter is home to one of the most beautiful wild animals, the cheetah, and protects other wild animals such as pumas, zebras, and otters. All the animals have been saved from tragic circumstances. <br>
+                    A place where the lives of the animals matter is worth visiting, and this unique destination allows you to encounter the beauty of the animals from zero distance. <br>
+                    Our team will help you reach Cheetah’s Rock and enjoy this unique experience that you will remember forever. <br>
+                    Tours to Cheetah’s Rock are arranged in private or small groups after an appointment with the team at the shelter.
+                    </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF RIGHT IMG SECTION WITH TWO IMAGES-->
+
+    <!-- START OF LEFT IMG SECTION WITH BIGGER IMAGE COL -->
+    <div class="leftImg-section marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-8 imgCol order-2 order-lg-1" style="background: url('./images/sunshine-hotel-swimming-pool1.jpg') no-repeat center center/ cover; height: 800px;"  data-aos="fade-in" data-aos-duration="2000">
+
+        </div>
+        <div class="col-lg-4 textCol text-lg-end order-1 order-lg-2 mb-4 mb-lg-0">
+            <div class="textBlock col-12 col-lg-10 col-xl-9 ms-lg-auto">
+                <div class="sectionCategory mb-4">
+                    Spice Tour
+                </div>
+                <h2>ADMIRE THE BEAUTIFUL FARMS</h2>
+                <p>It was Portuguese traders that first brought spices to Zanzibar in the 16th century from South American and Indian colonies. The climate of Zanzibar proved to be ideal to farm of spices. Since then, spice farms have been a success story for the economy and gastronomy of the island. 
+                    Saffron, cardamon, cloves, nutmeg, green and black pepper, ginger and many other spices can be found in Zanzibar, making it one of the most exciting destinations in the world for spice lovers.
+                    In this tour, you will not only learn about the history and culture of spices in Zanzibar but you can also admire the beautiful farms, plantations, and local harvesting techniques. Expect a rich blend of aromas, flavours, colours, and experiences.
+                    </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF LEFT IMG SECTION WITH BIGGER IMAGE COL -->
+
+    <!-- START OF RIGHT IMG SECTION  -->
+    <div class="rightImg-section marginTop px-4 px-sm-5">
+        <div class="row g-0 align-items-center">
+        <div class="col-lg-7 imgCol order-2" style="background: url('./images/sunshne-boutique-hotel-zanzibar3.jpg') no-repeat center center/ cover; height: 800px;"  data-aos="fade-in" data-aos-duration="2000">
+
+        </div>
+        <div class="col-lg-5 textCol text-start order-1 mb-4 mb-lg-0">
+            <div class="textBlock col-12 col-lg-10 col-xl-8 me-lg-auto">
+                <!-- <div class="sectionCategory mb-4">
+                    
+                </div> -->
+                <h2>Sunset Cruise</h2>
+                <p>Relax and unwind on this tour in the warm Indian Ocean characterised by breath-taking views of the colourful sky. This is the most romantic way to experience the island of Zanzibar with your loved ones or a small group of likeminded travellers.
+                    Our designated team will guide you through the various sunset cruises in order to find the one most suitable to your preference and needs.
+                    Soft drinks, snacks, and dinner can be arranged while on board.
+                    
+                    
+                    </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF RIGHT IMG SECTION  -->
+
+    <!-- START OF INSTA SECTION  -->
+    <div class="marginTop instaHome">
+        <div class="text-center container">
+            <h2>INSTAGRAM<br>#ZoiZanzibar</h2>
+            <p class="my-4">Follow us & share your
+            <strong>#ZoiZanzibar</strong> Experience</p>
+        </div>
+        <div class="container-fluid">
+        <div class="row row-insta">
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                    <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                    <source srcset="#" media="(min-width: 992px)"> -->
+                    <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                        <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                        <source srcset="#" media="(min-width: 992px)"> -->
+                        <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                        <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                        <source srcset="#" media="(min-width: 992px)"> -->
+                        <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                    <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                    <source srcset="#" media="(min-width: 992px)"> -->
+                    <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START OF INSTA SECTION  -->
+
+    <!-- START OF NEWSLETTER  -->
+    <div class="newsletter marginTop">
+        <div class="container">
+        <div class="row g-0">
+            <div class="col-md-6 mb-5 mb-md-0">
+                <div class="text-center">
+                <h3><span>stay</span> UPDATED</h3>
+                <p>SUBSCRIBE TO OUR NESLETTER</p>
+                </div>
+                
+                <form class="newsletterForm row gy-4 mt-4">
+                <div class="col-12">
+                    <label for="firstName" class="form-label visually-hidden">Example label</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                <div class="col-12">
+                    <label for="lastName" class="form-label visually-hidden">Another label</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+                <div class="col-12">
+                    <label for="email" class="form-label visually-hidden">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="col-12 text-center">
+                    <!-- <input class="form-check-input" type="checkbox" id="privacy"> -->
+                    <label for="privacy">
+                        Your personal data will be used to support your experience throughout this website and for other purposes described in our privacy policy.
+                    </label>
+                    </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="goldButton ">SUBMIT</button>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="social-media">
+                    <h3><span>follow</span> ZOI BOUTUQUE HOTEL</h3>
+                    <ul class="d-flex list-unstyled align-items-center justify-content-center mt-3">
+                    <li><a href="#"><img src="./images/facebook-black.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/instagram-black.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/tripadvisor-black.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="reach-us mt-5">
+                <div class="title">
+                    <strong>GENERAL INQUIRIES</strong><br>
+                    PLEASE CONTACT US HERE
+                </div>
+                <ul class="d-flex flex-column list-unstyled justify-content-center mt-3">
+                    <li class="d-flex flex-column"><strong>Telephone</strong><a href="#">255 774 388 662</a></li>
+                    <li class="d-flex flex-column"><strong>Email</strong><a href="#">reservations@zoihotelzanzibar.com</a></li>
+                    <li class="d-flex flex-column"><strong>Address</strong><a href="#">P.O. BOX 4749, Matemwe, Zanzibar</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF NEWSLETTER  -->
+
+    <!-- START OF FOOTER  -->
+    <footer class="green-bg">
+        <div class="row">
+        <div class="col-lg-5 mb-3 mb-lg-0">
+            <div class="bottom-menu">
+                <ul>
+                <li>
+                    <a href="#">ABOUT</a>
+                    <ul>
+                    <li><a href="#">Facilities & Services</a></li>
+                    <li><a href="#">Econdition</a></li>
+                    <li><a href="#">Awards</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">STAY</a>
+                    <ul>
+                    <li><a href="#">Standard Room</a></li>
+                    <li><a href="#">Junior Suite with garden view</a></li>
+                    <li><a href="#">Junior Suite with partial ocean view</a></li>
+                    <li><a href="#">Junior Suite with ocean view</a></li>
+                    <li><a href="#">Junior Suite ocean front</a></li>
+                    <li><a href="#">Honeymoon suite with plunge pool ocean front</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TASTE</a></li>
+                <li><a href="#">SPA</a></li>
+                <li>
+                    <a href="#">EXPERIENCES</a>
+                    <ul>
+                    <li><a href="#">Scuba Diving</a></li>
+                    <li><a href="#">Honeymoon</a></li>
+                    <li><a href="#">Mnemba Island</a></li>
+                    <li><a href="#">Prison Island - Changuu Private Island</a></li>
+                    <li><a href="#">Stone Town</a></li>
+                    <li><a href="#">Cheetah's Rock</a></li>
+                    <li><a href="#">Spice Tour</a></li>
+                    <li><a href="#">Sunset Cruise</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">EXPLORE</a>
+                </li>
+                <li><a href="#">OFFERS</a></li>
+                <li><a href="#">PHOTO GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">COVID-19</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">COOKIE SETTINGS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="awards mb-5 mb-lg-0 mt-0 mt-lg-5 text-center">
+                <h2>AWARDS</h2>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center mt-5">
+                    <li><img src="./images/tchotel_2022_LL.png" alt="#"></li>
+                    <li><img src="./images/travellers-_choice_2021.jpg" alt="#"></li>
+                    <li><img src="./images/hotels-com.jpg" alt="#"></li>
+                </ul>
+                <a href="#" class="goldButton mt-4">DISCOVER MORE</a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="map">
+                <a href="https://goo.gl/maps/DHeYo8kvu2FMPZWW9" class="map-link" target="_blank"></a>
+            </div>
+        </div>
+        
+        </div>
+        <div class="copyright d-flex flex-wrap flex-sm-nowrap text-center text-sm-end align-items-end justify-content-center justify-content-sm-between mt-5">
+        <div class="footer-logo mb-5 mb-sm-0">
+            <a href="#" class="d-block">
+            <img src="./images/zoi-logo.svg" alt="">
+            </a>
+        </div>
+        <p>All rights reserved | Web Development by <a href="https://www.eyewide.gr/" target="_blank" aria-label="eyewide">Eyewide - Hotel Digital Marketing</a></p>
+        </div>
+    </footer>
+    <!-- END OF FOOTER  -->
+
+
+  <!--START BOOTSTRAP JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!--END BOOTSTRAP JS  -->
+
+  <!--START AOS JS  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--END AOS JS  -->
+
+  <!--START MY SCRIPTS  -->
+   <script src="./scripts/scripts.js"></script>
+  <!--END MY SCRIPTS  -->
+
+</body>
+</html>

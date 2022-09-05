@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Zoi Boutique Hotel Zanzibar</title>
+    <link rel="icon" href="./images/favicon.ico">
+    
+
+    <!--PREFETCH STARTS HERE-->
+    <link rel="dns-prefetch" crossorigin="anonymous" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <!--PREFETCH ENDS HERE -->
+
+
+    <!--START FONTS STARTS HERE  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Six+Caps&display=swap" rel="stylesheet" />
+    <noscript><link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Six+Caps&display=swap" rel="stylesheet" /></noscript>
+    <!--END FONTS ENDS HERE  -->
+
+    
+    <!--START BOOTSTRAP CSS  -->
+    <link rel="preload" as="style" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--END BOOTSTRAP CSS  -->
+
+    <!-- AOS LIBRARY  -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS LIBRARY  -->
+
+    <!-- MY STYLE -->
+    <link rel="preload" as="style" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- MY STYLE -->
+
+    <!-- SCRIPTS PRELOAD STARTS HERE  -->
+    <!-- BOOTSTRAP JS PRELOAD  -->
+    <link rel="preload" as="script" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+    <!-- BOOTSTRAP JS PRELOAD  -->
+
+    <!-- AOS LIBRARY  -->
+    <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- AOS LIBRARY  -->
+
+    <!-- FSLIGHTBOX PRELOAD ONLY IN GALLERY  -->
+    <link rel="preload" as="script" href="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js"  integrity="sha512-EqNNJuepkw5P9vxCml8eBk7C4Ld+4kAnvzOD/jG21rkxWPILGoQa5EvD62UieiJF0u3xoQrcVnce4i83VnYj/Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FSLIGHTBOX PRELOAD ONLY IN GALLERY  -->
+
+    <!-- MY SCRIPTS  -->
+    <link rel="preload" as="script" href="./scripts/scripts.js">
+   <!-- MY SCRIPTS  -->
+  
+</head>
+<body class="noSlider">
+
+    <!-- START OF HEADER  -->
+    <header class="header fixed-top">
+      <div class="row g-0 align-items-center py-2 px-2 px-sm-3 px-xl-5">
+        <div class="col-4 d-flex justify-content-start align-items-center">
+          <div class="menu-btn">
+            <input type="checkbox" class="menuToggleInput" onclick="myFunction()"/>
+            <span></span>
+          </div>
+          <div class="header-tel ms-3 ms-md-4">
+            <a href="#"><img src="./images/phone.png" alt="" class="mb-1">+255 774 388 662</a>
+          </div>
+        </div>
+        <div class="col-4 text-center">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="./images/zoi-logo.svg" alt="" class="d-none d-md-block">
+                    <img src="./images/logo-vertical.png" alt="" class="d-md-none">
+                </a>
+            </div>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <div class="languagesDrop pe-3 pe-sm-4">
+            <button type="button" class="dropdown-toggle" id="dropdownMenuButton"  data-bs-toggle="dropdown" aria-expanded="false">
+                EN
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">DE</a></li>
+            </ul>
+          </div>
+          <div class="header-buttons d-flex flex-column justify-content-center align-items-center">
+            <a href="#" class="mb-1">LOYALTY CLUB</a>
+            <a href="#" class="whiteBtn">BOOK NOW</a>
+          </div>
+         
+        </div>
+      </div>
+    </header>
+    <!-- END OF HEADER  -->
+
+    <!-- START OF MAIN MENU  -->
+    <nav role="navigation" class="mobile-nav-container">
+        <div class="menu-btn">
+        <input type="checkbox" class="menuToggleInput" onclick="myFunction()"/>
+        <span></span>
+        </div>
+        
+        <div class="mobile-nav">
+        <ul class="nav">
+            <li>
+            <label for="btn-1" class="d-none">HOTEL</label>
+            <a href="">HOTEL</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">Facilities &amp; Services</a>
+                </li>
+                <li>
+                    <a href="#">Awards</a>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <label for="btn-1" class="d-none">STAY</label>
+            <a href="">STAY</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">STANDARD ROOM</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE WITH GARDEN VIEW</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE WITH PARTIAL OCEAN VIEW</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE WITH OCEAN VIEW</a>
+                </li>
+                <li>
+                    <a href="#">JUNIOR SUITE OCEAN FRONT</a>
+                </li>
+                <li>
+                    <a href="#">HONEYMOON SUITE WITH PLUNGE POOL OCEAN FRONT</a>
+                </li>
+            </ul>
+            </li>        
+            <li>
+                <a href="#">TASTE</a>
+            </li>
+            <li>
+                <a href="#">EXPERIENCES</a>
+            </li>
+            <li>
+                <a href="#">EXPLORE</a>
+            </li>
+            <li>
+            <label for="btn-1" class="d-none">OFFERS</label>
+            <a href="">OFFERS</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">JOIN OUR LOYALTY CLUB</a>
+                </li>
+                <li>
+                    <a href="#">JOIN OUR LOYALTY CLUB 2</a>
+                </li>
+            </ul>
+            </li>  
+            <li>
+            <label for="btn-1" class="d-none">GALLERY</label>
+            <a href="">GALLERY</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+                <li>
+                    <a href="#">GENERAL</a>
+                </li>
+                <li>
+                    <a href="#">STAY</a>
+                </li>
+                <li>
+                    <a href="#">TASTE</a>
+                </li>
+            </ul>
+            </li>
+            <li>
+            <a href="#">TRAVEL AGENTS</a>
+            </li>
+            <li>
+            <a href="#">MAKE A REQUEST</a>
+            </li>
+            <li>
+            <a href="#">CAREER</a>
+            </li>
+            <li>
+            <a href="#">HEALTH AND SAFETY</a>
+            </li>   
+            <li>
+            <a href="#">CONTACT</a>
+            </li>          
+        </ul>
+        <div class="social-media mt-3">
+            <div class="title">
+                Find us on Social Media
+            </div>
+            <ul class="d-flex list-unstyled align-items-center mt-3">
+                <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="./images/tripadvisor.png" alt=""></a></li>
+            </ul>
+        </div>
+        
+
+        </div>
+    </nav>
+    <!--END OF MAIN MENU  -->
+
+    <!-- START OF GALLERY  -->
+    <div class="marginTop px-4 px-sm-5">
+        <div class="text-center container">
+            <h1 class="h2">GALLERY</h1>
+        </div>
+        <!-- START OF GALLLERY  -->
+        <div class="galleryFiltering marginTop">
+
+            <div id="galleryBtnContainer" class="d-flex flex-wrap justify-content-center">
+                <button class="goldButton active" onclick="filterSelection('all')"> Show all</button>
+                <button class="goldButton" onclick="filterSelection('hotel')"> hotel</button>
+                <button class="goldButton" onclick="filterSelection('stay')"> stay</button>
+                <button class="goldButton" onclick="filterSelection('taste')"> taste</button>
+                <button class="goldButton" onclick="filterSelection('explore')"> explore</button>
+            </div>
+            
+            <div class="overflow-hidden mt-5">
+                <div class="row g-3">
+                    <div class="col-6 col-md-4 col-xl-3 hotel photoColumn">
+                        <a href="./images/sunshine-hotel-junior-suite-garden-view1.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 hotel photoColumn">
+                        <a href="./images/sunshine-hotel-swimming-pool9.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-swimming-pool9.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 hotel photoColumn">
+                        <a href="./images/sunshine-hotel-junior-suite-ocean-front2.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-junior-suite-ocean-front2.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>            
+                    <div class="col-6 col-md-4 col-xl-3 stay photoColumn">
+                        <a href="./images/sunshine-hotel-standard-room3.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-standard-room3.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 stay photoColumn">
+                        <a href="./images/sunshne-boutique-hotel-zanzibar6.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshne-boutique-hotel-zanzibar6.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 stay photoColumn">
+                        <a href="./images/sunshine-hotel-restaurant16.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-restaurant16.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 taste photoColumn">
+                        <a href="./images/sunshine-hotel-night4.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-night4.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 taste photoColumn">
+                        <a href="./images/sunshine-hotel-swimming-pool5.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-swimming-pool5.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 taste photoColumn">
+                        <a href="./images/sunshine-hotel-restaurant11.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-restaurant11.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 explore photoColumn">
+                        <a href="./images/sunshne-boutique-hotel-zanzibar3.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshne-boutique-hotel-zanzibar3.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 explore photoColumn">
+                        <a href="./images/sunshine-hotel-swimming-pool1.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-swimming-pool1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-3 explore photoColumn">
+                        <a href="./images/sunshine-hotel-junior-suite-ocean-view3.jpg" data-fslightbox="gallery">
+                            <picture>
+                                <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                                <source srcset="#" media="(min-width: 992px)"> -->
+                                <img src="./images/sunshine-hotel-junior-suite-ocean-view3.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                            </picture>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- END OF GALLLERY  -->
+
+
+    </div>
+    <!-- END OF GALLERY  -->
+
+    <!-- START OF INSTA SECTION  -->
+    <div class="marginTop instaHome">
+        <div class="text-center container">
+            <h2>INSTAGRAM<br>#ZoiZanzibar</h2>
+            <p class="my-4">Follow us & share your
+            <strong>#ZoiZanzibar</strong> Experience</p>
+        </div>
+        <div class="container-fluid">
+        <div class="row row-insta">
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                    <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                    <source srcset="#" media="(min-width: 992px)"> -->
+                    <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                        <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                        <source srcset="#" media="(min-width: 992px)"> -->
+                        <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                        <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                        <source srcset="#" media="(min-width: 992px)"> -->
+                        <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+                <div class="col-6 col-lg-3 col-insta">
+                <a href="#" target="_blank">
+                    <picture>
+                    <!-- <source srcset="#" type="image/webp" media="(min-width: 992px)">
+                    <source srcset="#" media="(min-width: 992px)"> -->
+                    <img src="./images/sunshine-hotel-junior-suite-garden-view1.jpg" alt="Zoi Boutique Hotel Zanzibar" class="img-fluid">
+                    </picture>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START OF INSTA SECTION  -->
+
+    <!-- START OF NEWSLETTER  -->
+    <div class="newsletter marginTop">
+        <div class="container">
+        <div class="row g-0">
+            <div class="col-md-6 mb-5 mb-md-0">
+                <div class="text-center">
+                <h3><span>stay</span> UPDATED</h3>
+                <p>SUBSCRIBE TO OUR NESLETTER</p>
+                </div>
+                
+                <form class="newsletterForm row gy-4 mt-4">
+                <div class="col-12">
+                    <label for="firstName" class="form-label visually-hidden">Example label</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                </div>
+                <div class="col-12">
+                    <label for="lastName" class="form-label visually-hidden">Another label</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                </div>
+                <div class="col-12">
+                    <label for="email" class="form-label visually-hidden">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="col-12 text-center">
+                    <!-- <input class="form-check-input" type="checkbox" id="privacy"> -->
+                    <label for="privacy">
+                        Your personal data will be used to support your experience throughout this website and for other purposes described in our privacy policy.
+                    </label>
+                    </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="goldButton ">SUBMIT</button>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="social-media">
+                    <h3><span>follow</span> ZOI BOUTUQUE HOTEL</h3>
+                    <ul class="d-flex list-unstyled align-items-center justify-content-center mt-3">
+                    <li><a href="#"><img src="./images/facebook-black.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/instagram-black.png" alt=""></a></li>
+                    <li><a href="#"><img src="./images/tripadvisor-black.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="reach-us mt-5">
+                <div class="title">
+                    <strong>GENERAL INQUIRIES</strong><br>
+                    PLEASE CONTACT US HERE
+                </div>
+                <ul class="d-flex flex-column list-unstyled justify-content-center mt-3">
+                    <li class="d-flex flex-column"><strong>Telephone</strong><a href="#">255 774 388 662</a></li>
+                    <li class="d-flex flex-column"><strong>Email</strong><a href="#">reservations@zoihotelzanzibar.com</a></li>
+                    <li class="d-flex flex-column"><strong>Address</strong><a href="#">P.O. BOX 4749, Matemwe, Zanzibar</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- END OF NEWSLETTER  -->
+
+    <!-- START OF FOOTER  -->
+    <footer class="green-bg">
+        <div class="row">
+        <div class="col-lg-5 mb-3 mb-lg-0">
+            <div class="bottom-menu">
+                <ul>
+                <li>
+                    <a href="#">ABOUT</a>
+                    <ul>
+                    <li><a href="#">Facilities & Services</a></li>
+                    <li><a href="#">Econdition</a></li>
+                    <li><a href="#">Awards</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">STAY</a>
+                    <ul>
+                    <li><a href="#">Standard Room</a></li>
+                    <li><a href="#">Junior Suite with garden view</a></li>
+                    <li><a href="#">Junior Suite with partial ocean view</a></li>
+                    <li><a href="#">Junior Suite with ocean view</a></li>
+                    <li><a href="#">Junior Suite ocean front</a></li>
+                    <li><a href="#">Honeymoon suite with plunge pool ocean front</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TASTE</a></li>
+                <li><a href="#">SPA</a></li>
+                <li>
+                    <a href="#">EXPERIENCES</a>
+                    <ul>
+                    <li><a href="#">Scuba Diving</a></li>
+                    <li><a href="#">Honeymoon</a></li>
+                    <li><a href="#">Mnemba Island</a></li>
+                    <li><a href="#">Prison Island - Changuu Private Island</a></li>
+                    <li><a href="#">Stone Town</a></li>
+                    <li><a href="#">Cheetah's Rock</a></li>
+                    <li><a href="#">Spice Tour</a></li>
+                    <li><a href="#">Sunset Cruise</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">EXPLORE</a>
+                </li>
+                <li><a href="#">OFFERS</a></li>
+                <li><a href="#">PHOTO GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">CAREER</a></li>
+                <li><a href="#">COVID-19</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">COOKIE SETTINGS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="awards mb-5 mb-lg-0 mt-0 mt-lg-5 text-center">
+                <h2>AWARDS</h2>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-center mt-5">
+                    <li><img src="./images/tchotel_2022_LL.png" alt="#"></li>
+                    <li><img src="./images/travellers-_choice_2021.jpg" alt="#"></li>
+                    <li><img src="./images/hotels-com.jpg" alt="#"></li>
+                </ul>
+                <a href="#" class="goldButton mt-4">DISCOVER MORE</a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="map">
+                <a href="https://goo.gl/maps/DHeYo8kvu2FMPZWW9" class="map-link" target="_blank"></a>
+            </div>
+        </div>
+        
+        </div>
+        <div class="copyright d-flex flex-wrap flex-sm-nowrap text-center text-sm-end align-items-end justify-content-center justify-content-sm-between mt-5">
+        <div class="footer-logo mb-5 mb-sm-0">
+            <a href="#" class="d-block">
+            <img src="./images/zoi-logo.svg" alt="">
+            </a>
+        </div>
+        <p>All rights reserved | Web Development by <a href="https://www.eyewide.gr/" target="_blank" aria-label="eyewide">Eyewide - Hotel Digital Marketing</a></p>
+        </div>
+    </footer>
+    <!-- END OF FOOTER  -->
+
+
+    <!--START BOOTSTRAP JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!--END BOOTSTRAP JS  -->
+
+    <!--START AOS JS  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--END AOS JS  -->
+
+    <!-- START OF FSLIGHTBOX ONLY IN GALLERY PAGE -->
+    <script integrity="sha512-EqNNJuepkw5P9vxCml8eBk7C4Ld+4kAnvzOD/jG21rkxWPILGoQa5EvD62UieiJF0u3xoQrcVnce4i83VnYj/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js"></script>
+    <!-- END OF FSLIGHTBOX ONLY IN GALLERY PAGE -->
+
+    <!--START MY SCRIPTS  -->
+    <script src="./scripts/scripts.js"></script>
+    <!--END MY SCRIPTS  -->
+
+    <!-- START FILTERS GALLERY SCRIPT -->
+    <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("photoColumn");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        galleryRemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) galleryAddClass(x[i], "show");
+      }
+    }
+    
+    function galleryAddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function galleryRemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("galleryBtnContainer");
+    var btns = btnContainer.getElementsByClassName("goldButton");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+    <!-- END FILTERS GALLERY SCRIPT -->
+
+
+</body>
+</html>
